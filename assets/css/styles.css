@@ -1,0 +1,28 @@
+header {
+    background-color: #1b1c1d;
+}
+
+#btnZone {
+    line-height: 3em;
+}
+
+.image {
+    position: relative;
+}
+
+h2 {
+    opacity: 0.4;
+    font-size: 5em;
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+}
+
+.ui.segment {
+    box-shadow: none;
+    border: none;
+}
