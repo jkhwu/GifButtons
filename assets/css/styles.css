@@ -26,3 +26,7 @@ h2 {
     box-shadow: none;
     border: none;
 }
+
+img {
+    height: 200px;
+}

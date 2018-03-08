@@ -16,7 +16,7 @@
         <div class="ui inverted center aligned container segment">
             <h1 class="ui header">Dance GIFs</h1>
             <div class="ui inverted action input">
-                <input type="text" placeholder="Add a Dance...">
+                <input id="searchTerm" type="text" placeholder="Add a Dance...">
                 <button id="submit" class="ui inverted teal button">Submit</button>
             </div>
             <div id="btnZone" class="ui inverted segment"></div>
@@ -24,20 +24,10 @@
     </header>
 
 
-    <div id="gifZone" class="ui four cards segment">
-        <!-- <div class="card">
-            <div class="image">
-                <img src="assets/images/raisinpuppy.jpg">
-                <h2><i class="play circle outline icon"></i></h2>
-            </div>
-            <div class="extra">
-                Rating:
-            </div>
-        </div> -->
-    </div>
+    <div id="gifZone" class="ui link cards segment"></div>
 
     <!-- jQuery and Semantic UI-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.min.js"></script>
     <!-- my js -->
     <script src="assets/javascript/app.js"></script>
