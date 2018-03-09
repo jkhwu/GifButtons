@@ -11,10 +11,6 @@ header {
     line-height: 3em;
 }
 
-.image {
-    position: relative;
-}
-
 .ui.segment {
     box-shadow: none;
     border: none;
@@ -22,14 +18,6 @@ header {
 
 .ui.image {
     margin: 10px;
-}
-
-.clearfix:after {
-    content: ".";
-    visibility: hidden;
-    display: block;
-    height: 0;
-    clear: both;
 }
 
 img:hover {
